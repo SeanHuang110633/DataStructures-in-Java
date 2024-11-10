@@ -2,7 +2,10 @@ package main.java.linkedlist.leetCode;
 
 import java.util.ArrayList;
 
-public class ReverseSingle {
+/**
+ * 反轉單項鏈表
+ */
+public class ReverseSinglyLinkedList {
 
     public static void main(String[] args) {
         ListNode o5 = new ListNode(5, null);
@@ -10,22 +13,17 @@ public class ReverseSingle {
         ListNode o3 = new ListNode(3, o4);
         ListNode o2 = new ListNode(2, o3);
         ListNode o1 = new ListNode(1, o2);
-//        System.out.println("origin: " +o1);
-//        ListNode n1 = reverse1(o1);
-//        System.out.println("reverse1: " +n1);
-//        ListNode listNode = reverse3(o1);
-//        System.out.println("reverse3: " + listNode);
-//        System.out.println("before reverse5: " + o1);
+        System.out.println("before reverse: " + o1);
         ListNode listNode1 = reverse5(o1);
         System.out.println("reverse5: " + listNode1);
     }
 
-    //靜態內部類
+
     static class ListNode {
         private int val;
         private ListNode next;
 
-        public ListNode(int val, ReverseSingle.ListNode next) {
+        public ListNode(int val, ReverseSinglyLinkedList.ListNode next) {
             this.val = val;
             this.next = next;
         }
@@ -34,7 +32,7 @@ public class ReverseSingle {
         @Override
         public String toString() {
             ArrayList<Integer> nodeVal = new ArrayList<>();
-            ReverseSingle.ListNode currentNode = this;
+            ReverseSinglyLinkedList.ListNode currentNode = this;
 
             while (currentNode != null) {
                 nodeVal.add(currentNode.val);
@@ -52,11 +50,11 @@ public class ReverseSingle {
      * @param o1
      * @return
      */
-    public static ReverseSingle.ListNode reverse1(ReverseSingle.ListNode o1) {
-        ReverseSingle.ListNode newList = null;  //等於創建一個空的新鏈表
-        ReverseSingle.ListNode oldList = o1;
+    public static ReverseSinglyLinkedList.ListNode reverse1(ReverseSinglyLinkedList.ListNode o1) {
+        ReverseSinglyLinkedList.ListNode newList = null;  //等於創建一個空的新鏈表
+        ReverseSinglyLinkedList.ListNode oldList = o1;
         while (oldList != null) {
-            newList = new ReverseSingle.ListNode(oldList.val, newList);
+            newList = new ReverseSinglyLinkedList.ListNode(oldList.val, newList);
             oldList = oldList.next;
         }
 
@@ -125,7 +123,7 @@ public class ReverseSingle {
     }
 
     /**
-     * 方法5:思路同方法2，但是面相過程，2是面向對象
+     * 方法5:思路同方法2，但是過程導向，2是物件導向
      */
     static ListNode reverse5(ListNode node) {
 

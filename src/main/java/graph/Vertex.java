@@ -7,7 +7,6 @@ import java.util.List;
  * PackageName: main.java.graph
  * Description: 頂點類
  *
- * @Create: 2024/10/17-下午 05:22
  */
 public class Vertex {
     String name;

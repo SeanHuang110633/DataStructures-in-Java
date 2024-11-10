@@ -8,7 +8,6 @@ import java.util.function.Consumer;
  * PackageName: main.java.array
  * Description: 使用泛型接收
  *
- * @Create: 2024/10/1-下午 07:44
  */
 public class DynamicArrayGeneric<T> implements Iterable<T>{
     private int size = 0;

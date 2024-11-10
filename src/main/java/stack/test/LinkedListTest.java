@@ -1,6 +1,6 @@
 package main.java.stack.test;
 
-import main.java.stack.implement.LinkedListStack;
+import main.java.stack.implement.SinglyLinkedListStack;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -17,7 +17,7 @@ public class LinkedListTest {
 
     @Test
     public void test_push() {
-        LinkedListStack<Integer> stack = new LinkedListStack<>(3);
+        SinglyLinkedListStack<Integer> stack = new SinglyLinkedListStack<>(3);
         stack.push(1);
         stack.push(2);
         stack.push(3);
@@ -28,7 +28,7 @@ public class LinkedListTest {
 
     @Test
     public void test_pop() {
-        LinkedListStack<Integer> stack = new LinkedListStack<>(4);
+        SinglyLinkedListStack<Integer> stack = new SinglyLinkedListStack<>(4);
         stack.push(1);
         stack.push(2);
         stack.push(3);

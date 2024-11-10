@@ -7,7 +7,6 @@ import main.java.stack.implement.ArrayStack;
  * PackageName: main.java.queue
  * Description: 兩個 ArrayStack模擬 queue，ArrayStack是自己寫的 (leetCode題)
  *
- * @Create: 2024/10/4-下午 04:04
  */
 public class DoubleStackImpQueue {
 

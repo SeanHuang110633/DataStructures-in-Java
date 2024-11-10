@@ -2,7 +2,10 @@ package main.java.linkedlist.leetCode;
 
 import java.util.ArrayList;
 
-public class mergeOrderly {
+/**
+ * 合併兩個元素有序的單向鏈表，合併後元素必須維持順序
+ */
+public class MergeTwoSinglyLinkedListWithOrder {
 
     public static void main(String[] args) {
         ListNode o3 = new ListNode(6, null);

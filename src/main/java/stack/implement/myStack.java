@@ -3,9 +3,8 @@ package main.java.stack.implement;
 /**
  * ClassName: myStack
  * PackageName: main.java.datastructure.stack
- * Description:
+ * Description: 搭個架子
  *
- * @Create: 2024/10/3-下午 09:58
  */
 public interface myStack<E> {
 

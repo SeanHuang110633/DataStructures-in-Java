@@ -1,12 +1,6 @@
 package main.java.recursion;
 
-/**
- * ClassName: Ackerman
- * PackageName: main.java.recursion
- * Description:
- *
- * @Create: 2024/10/2-下午 11:16
- */
+
 public class Ackerman {
     public static void main(String[] args) {
         System.out.println(fc(2, 2));

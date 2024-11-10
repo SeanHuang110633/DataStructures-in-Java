@@ -2,6 +2,9 @@ package main.java.linkedlist.leetCode;
 
 import java.util.ArrayList;
 
+/**
+ * 使用快慢指針找到鏈表的中間節點 and 鏈表尾部開始的第 n 個節點
+ */
 public class QuickSlowPointer {
 
     public static void main(String[] args) {
@@ -39,6 +42,7 @@ public class QuickSlowPointer {
         }
     }
 
+    // 找到鏈表的中間節點
     static ListNode function(ListNode head) {
         ListNode p1 = head;
         ListNode p2 = head;
@@ -50,7 +54,7 @@ public class QuickSlowPointer {
         return p1;
     }
 
-
+    // 找到從鏈表尾部開始的第 n 個節點
     static ListNode function1(ListNode head, int n) {
         ListNode p1 = head;
         ListNode p2 = head;

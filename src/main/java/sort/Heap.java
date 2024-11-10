@@ -3,10 +3,10 @@ package main.java.sort;
 import java.util.Arrays;
 
 /**
- * ClassName: Heapsort
+ * ClassName: Heap
  * PackageName: main.java.sort
  */
-public class Heapsort {
+public class Heap {
 
     public static void main(String[] args) {
         int[] arr = {4, 5, 9, 1, 77, 22, 55, 3};

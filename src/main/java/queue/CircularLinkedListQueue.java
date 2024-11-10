@@ -7,7 +7,6 @@ import java.util.Iterator;
  * PackageName: main.java.queue
  * Description:
  *
- * @Create: 2024/10/3-下午 07:52
  */
 public class CircularLinkedListQueue<E> implements MyQueue<E>,Iterable<E>{
 

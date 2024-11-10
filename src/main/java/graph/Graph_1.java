@@ -7,7 +7,6 @@ import java.util.List;
  * PackageName: main.java.graph
  * Description:
  *
- * @Create: 2024/10/17-下午 05:27
  */
 public class Graph_1 {
     public static void main(String[] args) {

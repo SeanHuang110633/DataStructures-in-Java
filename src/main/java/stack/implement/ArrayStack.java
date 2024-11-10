@@ -5,9 +5,8 @@ import java.util.Iterator;
 /**
  * ClassName: ArrayStack
  * PackageName: main.java.datastructure.stack
- * Description:
+ * Description: 用陣列實現stack
  *
- * @Create: 2024/10/4-下午 04:37
  */
 public class ArrayStack<E> implements myStack<E>, Iterable<E> {
 

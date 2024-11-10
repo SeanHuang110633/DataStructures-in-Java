@@ -7,7 +7,6 @@ import java.util.Iterator;
  * PackageName: main.java.queue
  * Description: 環形數組實現
  *
- * @Create: 2024/10/3-下午 08:56
  */
 public class CircularArrayQueue<E> implements MyQueue<E>, Iterable<E> {
 

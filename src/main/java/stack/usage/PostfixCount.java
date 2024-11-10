@@ -3,13 +3,12 @@ package main.java.stack.usage;
 import java.util.LinkedList;
 
 /**
- * ClassName: Postfix
+ * ClassName: PostfixCount
  * PackageName: main.java.datastructure.stack
- * Description:
  *
  * @Create: 2024/10/4-下午 01:30
  */
-public class Postfix {
+public class PostfixCount {
 
     public static void main(String[] args) {
         String[] tokens1 = {"2", "1" ,"+" , "3" , "*"};

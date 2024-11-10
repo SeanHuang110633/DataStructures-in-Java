@@ -5,9 +5,7 @@ import java.util.LinkedList;
 /**
  * ClassName: InfixToPrefix
  * PackageName: main.java.datastructure.stack
- * Description:
- *
- * @Create: 2024/10/4-下午 02:34
+ * Description: 中綴表達式轉前綴
  */
 public class InfixToPrefix {
     public static void main(String[] args) {

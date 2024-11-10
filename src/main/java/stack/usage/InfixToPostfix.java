@@ -5,9 +5,8 @@ import java.util.LinkedList;
 /**
  * ClassName: InfixToPostFix
  * PackageName: main.java.datastructure.stack
- * Description:
+ * Description: 中綴表達氏轉後綴
  *
- * @Create: 2024/10/4-下午 01:46
  */
 public class InfixToPostfix {
     public static void main(String[] args) {

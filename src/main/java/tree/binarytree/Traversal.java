@@ -5,7 +5,7 @@ import java.util.LinkedList;
 /**
  * ClassName: Traversal
  * PackageName: main.java.binarytree
- * Description: 用recursive和iteration實現BT的前、中、後序追蹤
+ * Description: 用recursion和iteration實現BT的前、中、後序追蹤
  */
 public class Traversal {
 

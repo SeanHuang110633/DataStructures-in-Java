@@ -229,10 +229,10 @@ public class RedBlackTree {
         } else if (key < parent.key) {
             // 要插在左邊
             parent.left = insertNode;
-            insertNode.parent = parent;  // RBTree相較二叉樹必須多出這步
+            insertNode.parent = parent;  // RBTree相較BT必須多出這步
         }else{
             parent.right = insertNode;
-            insertNode.parent = parent;  // RBTree相較二叉樹必須多出這步
+            insertNode.parent = parent;  // RBTree相較BT必須多出這步
         }
     }
 }

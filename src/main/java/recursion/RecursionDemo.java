@@ -1,10 +1,7 @@
 package main.java.recursion;
 
 /**
- * ClassName: RecursionDemo
- * PackageName: main.java.recursion
- * Description: 打印觀察遞迴執行情況
- *
+ * 打印觀察遞迴執行情況
  */
 public class RecursionDemo {
 

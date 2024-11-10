@@ -3,13 +3,12 @@ package main.java.stack.implement;
 import java.util.Iterator;
 
 /**
- * ClassName: LinkedListStack
+ * ClassName: SinglyLinkedListStack
  * PackageName: main.java.datastructure.stack.test
- * Description:
+ * Description: 用單向鏈表實現stack
  *
- * @Create: 2024/10/3-下午 09:57
  */
-public class LinkedListStack<E> implements myStack<E>,Iterable<E> {
+public class SinglyLinkedListStack<E> implements myStack<E>,Iterable<E> {
 
 
     static class Node<E> {
@@ -26,12 +25,12 @@ public class LinkedListStack<E> implements myStack<E>,Iterable<E> {
     private int size;
     private int capacity;
 
-    public LinkedListStack(int capacity) {
+    public SinglyLinkedListStack(int capacity) {
         this.capacity = capacity;
     }
 
 
-    public LinkedListStack() {
+    public SinglyLinkedListStack() {
         this.capacity = 8;
     }
 
