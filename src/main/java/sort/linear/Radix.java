@@ -33,14 +33,14 @@ public class Radix {
         }
 
         // 逐輪將排序arr中的元素放入對應的桶中
-        for (int i = length - 1; i >= 0; i--) { // 從最低位數開始排
+        for (int i = length - 1; i >= 0; i--) { // 從最低位開始排
 
             // 元素放入對應的桶中
             for (String s : arr) {
                 buckets[s.charAt(i) - '0'].add(s);
             }
 
-            // 把放入桶中的元素依序拿出來
+            // 把放入桶中的元素依序拿出來放到原本的arr
             int pointer = 0;
             for (ArrayList<String> bucket : buckets) {
                 for (String s : bucket) {

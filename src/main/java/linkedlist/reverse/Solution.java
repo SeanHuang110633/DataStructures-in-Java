@@ -65,6 +65,7 @@ public class Solution {
     }
 
 
+
     // 最簡單
     public ListNode solution_1(ListNode head) {
         ListNode pointer = head;

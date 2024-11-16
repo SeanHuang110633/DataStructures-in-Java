@@ -23,7 +23,7 @@ public class Count {
 
 
     void function1(int[] arr) {
-        // 找到傳入陣列中的最大值，並創建一個大小為最大值+1的count陣列
+        // 找到傳入陣列中的最大值，並創建大小為最大值+1的count陣列
         int max = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > arr[max]) {

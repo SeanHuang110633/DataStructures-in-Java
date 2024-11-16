@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * ClassName: LinkedListqueue
  * PackageName: main.java.queue
- * Description:
+ * Description: 單向環形鏈表實現 Queue
  *
  */
 public class CircularLinkedListQueue<E> implements MyQueue<E>,Iterable<E>{
@@ -22,7 +22,7 @@ public class CircularLinkedListQueue<E> implements MyQueue<E>,Iterable<E>{
 
     private Node<E> head = new Node<>(null,null);
     private Node<E> tail = head;
-    private int size; //
+    private int size;
     private int capacity = Integer.MAX_VALUE;
 
 
@@ -31,12 +31,12 @@ public class CircularLinkedListQueue<E> implements MyQueue<E>,Iterable<E>{
         this.tail.next = head;
     }
 
+    // 自己決定要多大的 Q
     public CircularLinkedListQueue(int capacity) {
         this.capacity = capacity;
     }
 
-    public CircularLinkedListQueue() {
-    }
+    public CircularLinkedListQueue() {}
 
     /**
      * 向隊列尾插入值
